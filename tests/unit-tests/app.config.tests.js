@@ -21,7 +21,7 @@ describe('App config', function () {
         expect(typeof FIREBASE_URL).toEqual('string');
     });
     
-    it('>> ionic jsScrolling should be disabled if not on Mobile app, inic lab test or touch device ', function(){
+    it('>> ionic jsScrolling should be disabled if not on Mobile app, ionic lab test or touch device ', function(){
         expect($ionicConfigProvider.scrolling.jsScrolling()).toEqual(APP_ENV.isMobileApp || APP_ENV.isIonicLabTest || APP_ENV.isTouchDevice);
     });
 
