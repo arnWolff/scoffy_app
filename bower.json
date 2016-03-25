@@ -1,0 +1,9 @@
+{
+  "name": "scoffy_app",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.2.4",
+    "angularfire": "^1.1.4",
+    "angular-mocks": "1.4.3"
+  }
+}
