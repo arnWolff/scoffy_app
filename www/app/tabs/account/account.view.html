@@ -1,0 +1,23 @@
+<ion-view view-title="Account">
+    <ion-pane ng-show="userData">
+        <ion-content>
+            <!--<ion-list>
+            <ion-item>
+                <ion-toggle ng-model="settings.enableFriends">
+                    Enable Friends
+                </ion-toggle>
+            </ion-item>-->
+            <div class="card">
+                <div class="item item-divider">Logged in with {{userData.provider}} account</div>
+                <div class="item item-thumbnail-left">
+                    <img ng-src="{{userData.avatar}}">
+                    <h2><label>Display name: </label>{{userData.displayName}}</h2>
+                    <span><label>Email: </label>{{userData.email}}</span>
+                    <a ng-show="userData.emailInboxLink" href="{{userData.emailInboxLink}}" target="_blank" title="Check email inbox"><icon class="icon ion-email"></icon></a>
+                </div>
+                <div class="item item-divider"></div>
+            </div>
+            <!-- </ion-list> -->
+        </ion-content>
+    </ion-pane>
+</ion-view>

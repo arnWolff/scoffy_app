@@ -1,0 +1,5 @@
+/* on desktop, we use native scrolling behaviour, see app.js [config] */
+/* we set 'overflow-y: auto;' to override default ionic .overflow-scroll CSS in ionic.css (set to 'scroll'), see why: https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/*/
+.platform-browser .overflow-scroll {
+    overflow-y: auto;
+}

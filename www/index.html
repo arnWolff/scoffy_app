@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="app/libs/ionic/css/ionic.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="app/libs/ionic/js/ionic.bundle.js"></script>
+
+    <!-- Firebase & AngularFire -->
+    <script src="app/libs/firebase/firebase.js"></script>
+    <script src="app/libs/angularfire/dist/angularfire.min.js"></script>  
+    
+    <!-- localForage and angular-localForage -->
+    <script src="app/libs/localForage/localforage.min.js"></script>
+    <script src="app/libs/localForage/angular-localForage.js"></script>
+
+    <!-- your app's js -->
+    <script src="app/app.module.js"></script>    
+    <script src="app/app.config.js"></script>
+    <script src="app/app.routes.js"></script>
+    <script src="app/app.controllers.js"></script>
+    <script src="app/app.services.js"></script>
+    
+    <!-- tabs providers -->
+    <script src="app/tabs/login/login.provider.js"></script>
+    <script src="app/tabs/networks/networks.provider.js"></script>
+    
+    <!-- tabs contollers -->
+    <script src="app/tabs/login/login.controller.js"></script>
+    <script src="app/tabs/dashboard/dashboard.controller.js"></script>
+    <script src="app/tabs/networks/networks.controller.js"></script>
+    <script src="app/tabs/networks/network.detail.controller.js"></script>
+    <script src="app/tabs/account/account.controller.js"></script>
+    <script src="app/tabs/account/account.provider.js"></script>
+    
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+</head>
+
+<body ng-app="scoffy">
+    <!--
+      The nav bar that will be updated as we navigate between views.
+    -->
+    <ion-nav-bar class="bar-stable">
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <!--
+      The views will be rendered in the <ion-nav-view> directive below
+      Templates are in the /templates folder (but you could also
+      have templates inline in this html file if you'd like).
+    -->
+    <ion-nav-view></ion-nav-view>
+</body>
+
+</html>

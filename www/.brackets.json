@@ -1,0 +1,8 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/node/ionic_folder/app_social_login/scoffy_app/www/app/app.services.js",
+        "C:/node/ionic_folder/app_social_login/scoffy_app/www/_dev_libs/angular/angular.js",
+        "C:/node/ionic_folder/app_social_login/scoffy_app/www/_dev_libs/angular/angular.min.js",
+        "C:/node/ionic_folder/app_social_login/scoffy_app/www/_dev_libs/angular/index.js"
+    ]
+}
